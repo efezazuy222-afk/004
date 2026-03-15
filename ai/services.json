@@ -1,0 +1,150 @@
+{
+  "services": [
+    {
+      "id": "custom-itineraries",
+      "name": "Custom Travel Itineraries",
+      "description": "Personalized travel plans tailored to your interests and preferences, including transportation, accommodation, and activities.",
+      "features": [
+        "Customized travel routes based on your interests",
+        "Accommodation recommendations and bookings",
+        "Transportation arrangements",
+        "Activity bookings and reservations",
+        "24/7 travel support"
+      ],
+      "process": [
+        "Initial consultation to understand your travel preferences",
+        "Custom itinerary creation",
+        "Review and adjustments",
+        "Finalization and booking",
+        "Travel support during your trip"
+      ],
+      "ideal_for": [
+        "Families",
+        "Couples",
+        "Groups",
+        "Business travelers",
+        "First-time visitors to China"
+      ],
+      "contact": "180-1236-1217 or 932168783@qq.com"
+    },
+    {
+      "id": "guided-tours",
+      "name": "Guided Tours",
+      "description": "Professional guides who will take you through the best attractions and share fascinating stories about Wuxi's history and culture.",
+      "features": [
+        "Experienced and knowledgeable guides",
+        "Small group or private tours",
+        "In-depth cultural and historical explanations",
+        "Skip-the-line access to popular attractions",
+        "Comfortable transportation"
+      ],
+      "tour_options": [
+        "Wuxi City Tour (1 day)",
+        "Taihu Lake Tour (1 day)",
+        "Cultural Heritage Tour (1 day)",
+        "Wuxi Highlights Tour (2 days)",
+        "Custom Guided Tour"
+      ],
+      "languages": [
+        "English",
+        "Chinese",
+        "Japanese",
+        "Korean"
+      ],
+      "contact": "180-1236-1217 or 932168783@qq.com"
+    },
+    {
+      "id": "accommodation",
+      "name": "Accommodation Booking",
+      "description": "Help with finding the perfect place to stay, from luxury hotels to traditional guesthouses, to suit your budget and preferences.",
+      "options": [
+        "Luxury hotels",
+        "Business hotels",
+        "Boutique hotels",
+        "Traditional guesthouses",
+        "Serviced apartments"
+      ],
+      "services": [
+        "Hotel recommendations based on your preferences",
+        "Booking assistance",
+        "Special requests handling",
+        "Price comparisons",
+        "Reservation management"
+      ],
+      "locations": [
+        "City center",
+        "Near Taihu Lake",
+        "Near attractions",
+        "Business district"
+      ],
+      "contact": "180-1236-1217 or 932168783@qq.com"
+    },
+    {
+      "id": "transportation",
+      "name": "Transportation Arrangements",
+      "description": "Comprehensive transportation solutions for your trip to Wuxi, including airport transfers, city transportation, and day trips.",
+      "services": [
+        "Airport transfers",
+        "City transportation",
+        "Day trip transportation",
+        "Train ticket bookings",
+        "Car rental services"
+      ],
+      "vehicles": [
+        "Sedans",
+        "SUVs",
+        "Minivans",
+        "Buses"
+      ],
+      "features": [
+        "Professional drivers",
+        "Air-conditioned vehicles",
+        "Door-to-door service",
+        "Flexible scheduling",
+        "English-speaking drivers available"
+      ],
+      "contact": "180-1236-1217 or 932168783@qq.com"
+    },
+    {
+      "id": "travel-consultation",
+      "name": "Travel Consultation and Assistance",
+      "description": "Expert advice and assistance for all aspects of your trip to Wuxi, from planning to on-the-ground support.",
+      "services": [
+        "Trip planning advice",
+        "Visa information",
+        "Travel insurance recommendations",
+        "Local customs and etiquette guidance",
+        "Emergency assistance"
+      ],
+      "support_channels": [
+        "Phone",
+        "Email",
+        "WeChat",
+        "In-person consultation"
+      ],
+      "response_time": "24-hour response guarantee",
+      "contact": "180-1236-1217 or 932168783@qq.com"
+    }
+  ],
+  "booking_info": {
+    "process": [
+      "Contact us with your travel requirements",
+      "Receive a personalized quote",
+      "Confirm booking and make payment",
+      "Receive detailed itinerary and confirmation",
+      "Enjoy your trip with our support"
+    ],
+    "payment_methods": [
+      "Bank transfer",
+      "Credit card",
+      "WeChat Pay",
+      "Alipay"
+    ],
+    "cancellation_policy": "Cancellation policies vary by service type. Please inquire for details.",
+    "contact": {
+      "phone": "180-1236-1217",
+      "email": "932168783@qq.com",
+      "address": "No. 17, Xiangjuyuan, Meicun Street, Xinwu District, Wuxi"
+    }
+  }
+}

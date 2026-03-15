@@ -1,0 +1,48 @@
+{
+  "website": {
+    "name": "Wuxi Lanqing Travel Agency",
+    "url": "http://www.lanqingtrip.com",
+    "language": "English",
+    "description": "Wuxi Lanqing Travel Agency provides Wuxi travel guides, customized travel services, and inbound travel services to make your Wuxi trip more convenient and memorable.",
+    "operator": "Lanqing International Travel Agency",
+    "contact": {
+      "phone": "180-1236-1217",
+      "email": "932168783@qq.com",
+      "address": "No. 17, Xiangjuyuan, Meicun Street, Xinwu District, Wuxi"
+    },
+    "keywords": [
+      "Wuxi Travel",
+      "Wuxi Tourism",
+      "Visit Wuxi",
+      "Wuxi China Travel",
+      "Things to do in Wuxi"
+    ],
+    "pages": [
+      {
+        "title": "Home",
+        "url": "/index.html",
+        "description": "Welcome to Wuxi Lanqing Travel Agency, your comprehensive resource for exploring Wuxi."
+      },
+      {
+        "title": "Attractions",
+        "url": "/attractions/index.html",
+        "description": "Wuxi Lanqing Travel Agency takes you to explore Wuxi's top attractions, including Lingshan Giant Buddha, Uantouzhu, Nanchang Street, Taihu Lake, and Huishan Ancient Town."
+      },
+      {
+        "title": "Culture",
+        "url": "/culture/index.html",
+        "description": "Wuxi Lanqing Travel Agency takes you to explore Wuxi's rich cultural heritage, including Jiangnan water town culture, Taihu Lake culture, Wuxi cuisine, and traditional crafts."
+      },
+      {
+        "title": "Travel Guide",
+        "url": "/travel-guide/index.html",
+        "description": "Wuxi Lanqing Travel Agency provides Wuxi travel guides, including the best travel time, transportation guide, food recommendations, and travel tips."
+      },
+      {
+        "title": "Contact",
+        "url": "/contact/index.html",
+        "description": "Contact Wuxi Lanqing Travel Agency for customized travel services, tour bookings, and more information about Wuxi tourism."
+      }
+    ]
+  }
+}

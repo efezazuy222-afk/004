@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wuxi Culture - Wuxi Lanqing Travel Agency</title>
+    <meta name="description" content="Wuxi Lanqing Travel Agency takes you to explore Wuxi's rich cultural heritage, including Jiangnan water town culture, Taihu Lake culture, Wuxi cuisine, and traditional handicrafts."/>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .culture-detail {
+            display: flex;
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+        .culture-detail-image {
+            flex: 1;
+        }
+        .culture-detail-content {
+            flex: 1;
+        }
+        .culture-detail-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .culture-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .culture-item {
+            background-color: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .culture-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .culture-icon {
+            width: 80px;
+            height: 80px;
+            background-color: var(--light-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 2rem;
+            color: var(--white);
+        }
+        @media (max-width: 768px) {
+            .culture-detail {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="../index.html" class="logo">Wuxi Lanqing Travel Agency</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../attractions/index.html">Attractions</a></li>
+                <li><a href="index.html">Culture</a></li>
+                <li><a href="../travel-guide/index.html">Travel Guide</a></li>
+                <li><a href="../contact/index.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Wuxi Culture</h1>
+            <p>Rich Cultural Heritage and Traditions</p>
+        </div>
+    </section>
+
+    <!-- Culture Introduction -->
+    <section class="section">
+        <div class="section-title">
+            <h2>Wuxi's Cultural Heritage</h2>
+            <p>Explore the unique cultural traditions of Wuxi</p>
+        </div>
+        
+        <!-- Jiangnan Water Town Culture -->
+        <div class="culture-detail">
+            <div class="culture-detail-image">
+                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Jiangnan%20water%20town%20in%20Wuxi%2C%20traditional%20Chinese%20architecture%2C%20canals%2C%20stone%20bridges%2C%20ink%20painting%20style&image_size=landscape_16_9" alt="Jiangnan Water Town Culture">
+            </div>
+            <div class="culture-detail-content">
+                <h3>Jiangnan Water Town Culture</h3>
+                <p>Wuxi is part of the Jiangnan region, known for its beautiful water towns with traditional architecture, canals, and stone bridges. The water town culture reflects the unique lifestyle and customs of the region.</p>
+                <p>Key features of Jiangnan water town culture include:</p>
+                <ul style="margin: 1.5rem 0; padding-left: 2rem;">
+                    <li>Traditional architecture with white walls and black tiles</li>
+                    <li>Network of canals and rivers</li>
+                    <li>Stone bridges connecting different parts of the town</li>
+                    <li>Traditional festivals and customs</li>
+                    <li>Local crafts and cuisine</li>
+                </ul>
+                <p>Visitors can experience this culture by exploring ancient towns like Huishan Ancient Town and Nanchang Street, where traditional architecture and customs are well-preserved.</p>
+            </div>
+        </div>
+
+        <!-- Taihu Lake Culture -->
+        <div class="culture-detail">
+            <div class="culture-detail-content">
+                <h3>Taihu Lake Culture</h3>
+                <p>Taihu Lake, the third largest freshwater lake in China, has played a significant role in shaping Wuxi's culture. The lake has been a source of livelihood for local people and has inspired numerous cultural traditions.</p>
+                <p>Key aspects of Taihu Lake culture include:</p>
+                <ul style="margin: 1.5rem 0; padding-left: 2rem;">
+                    <li>Fishing traditions and techniques</li>
+                    <li>Water-related festivals and rituals</li>
+                    <li>Literary and artistic works inspired by the lake</li>
+                    <li>Culinary traditions using freshwater products</li>
+                    <li>Boatbuilding and navigation skills</li>
+                </ul>
+                <p>The lake's cultural significance is celebrated through various events and festivals throughout the year, including the Taihu Lake Fishing Festival and the Water Lantern Festival.</p>
+            </div>
+            <div class="culture-detail-image">
+                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Taihu%20Lake%20culture%20in%20Wuxi%2C%20traditional%20fishing%20boats%2C%20local%20people%20fishing%2C%20scenic%20lake%20view&image_size=landscape_16_9" alt="Taihu Lake Culture">
+            </div>
+        </div>
+
+        <!-- Wuxi Cuisine -->
+        <div class="culture-detail">
+            <div class="culture-detail-image">
+                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Wuxi%20cuisine%2C%20traditional%20Chinese%20dishes%2C%20xiaolongbao%2C%20braised%20pork%20ribs%2C%20local%20food&image_size=landscape_16_9" alt="Wuxi Cuisine">
+            </div>
+            <div class="culture-detail-content">
+                <h3>Wuxi Cuisine</h3>
+                <p>Wuxi cuisine is known for its sweet and savory flavors, with a focus on fresh ingredients, especially freshwater products from Taihu Lake. It is one of the major regional cuisines in the Jiangsu province.</p>
+                <p>Signature dishes of Wuxi cuisine include:</p>
+                <ul style="margin: 1.5rem 0; padding-left: 2rem;">
+                    <li><strong>Wuxi-style Xiaolongbao</strong> - Steamed dumplings with sweet broth</li>
+                    <li><strong>Braised Pork Ribs</strong> - Sweet and tender pork ribs</li>
+                    <li><strong>Silver Fish from Taihu Lake</strong> - Delicate freshwater fish</li>
+                    <li><strong>Wuxi Fried Noodles</strong> - Stir-fried noodles with vegetables and meat</li>
+                    <li><strong>Osmanthus Cake</strong> - Traditional sweet cake with osmanthus flavor</li>
+                </ul>
+                <p>Visitors can taste authentic Wuxi cuisine at local restaurants, especially in areas like Nanchang Street and Huishan Ancient Town, where traditional eateries offer a wide range of local specialties.</p>
+            </div>
+        </div>
+
+        <!-- Traditional Crafts -->
+        <div class="culture-detail">
+            <div class="culture-detail-content">
+                <h3>Traditional Crafts</h3>
+                <p>Wuxi has a rich tradition of handicrafts, with several traditional crafts that have been passed down through generations. These crafts reflect the city's cultural heritage and artistic skills.</p>
+                <p>Notable traditional crafts in Wuxi include:</p>
+                <ul style="margin: 1.5rem 0; padding-left: 2rem;">
+                    <li><strong>Huishan Clay Figurines</strong> - Colorful clay figurines with expressive faces</li>
+                    <li><strong>Wuxi Silk</strong> - High-quality silk products with intricate patterns</li>
+                    <li><strong>Bamboo Weaving</strong> - Traditional bamboo products for daily use</li>
+                    <li><strong>Pottery and Porcelain</strong> - Fine ceramics with traditional designs</li>
+                    <li><strong>Embroidery</strong> - Intricate needlework with detailed patterns</li>
+                </ul>
+                <p>Visitors can learn about these crafts at local workshops and purchase authentic handmade products as souvenirs. The Huishan Ancient Town is a great place to explore traditional crafts and watch artisans at work.</p>
+            </div>
+            <div class="culture-detail-image">
+                <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Traditional%20Chinese%20crafts%20in%20Wuxi%2C%20Huishan%20clay%20figurines%2C%20artisan%20at%20work%2C%20traditional%20craftsmanship&image_size=landscape_16_9" alt="Traditional Crafts">
+            </div>
+        </div>
+
+        <!-- Cultural Festivals -->
+        <div class="section-title">
+            <h2>Cultural Festivals</h2>
+            <p>Experience Wuxi's vibrant festivals and celebrations</p>
+        </div>
+        <div class="culture-grid">
+            <div class="culture-item">
+                <div class="culture-icon">🎉</div>
+                <h3>Spring Festival</h3>
+                <p>The most important traditional festival in China, celebrated with dragon dances, lion dances, and family gatherings.</p>
+            </div>
+            <div class="culture-item">
+                <div class="culture-icon">🌸</div>
+                <h3>Cherry Blossom Festival</h3>
+                <p>Held in Uantouzhu Scenic Area in spring, celebrating the beautiful cherry blossoms.</p>
+            </div>
+            <div class="culture-item">
+                <div class="culture-icon">🐟</div>
+                <h3>Taihu Lake Fishing Festival</h3>
+                <p>Celebrating the fishing culture of Taihu Lake with various activities and events.</p>
+            </div>
+            <div class="culture-item">
+                <div class="culture-icon">🏮</div>
+                <h3>Mid-Autumn Festival</h3>
+                <p>Celebrated with mooncakes, lanterns, and family reunions under the full moon.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Wuxi Lanqing Travel Agency is operated by Lanqing International Travel Agency, dedicated to providing comprehensive travel services for visitors to Wuxi.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="../index.html">Home</a>
+                <a href="../attractions/index.html">Attractions</a>
+                <a href="index.html">Culture</a>
+                <a href="../travel-guide/index.html">Travel Guide</a>
+                <a href="../contact/index.html">Contact Us</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Information</h4>
+                <p>Customer Service: 180-1236-1217</p>
+                <p>Email: 932168783@qq.com</p>
+                <p>Website: <a href="http://www.lanqingtrip.com">www.lanqingtrip.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wuxi Lanqing Travel Agency. All rights reserved. Operated by Lanqing International Travel Agency.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

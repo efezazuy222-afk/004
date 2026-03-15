@@ -1,0 +1,109 @@
+{
+  "places": [
+    {
+      "id": "lingshan-buddha",
+      "name": "Lingshan Giant Buddha",
+      "category": "Cultural",
+      "location": "Lingshan Scenic Area, Wuxi",
+      "description": "The Lingshan Giant Buddha is an 88-meter tall bronze statue of Maitreya Buddha located in the Lingshan Scenic Area, Wuxi, Jiangsu Province, China. Completed in 1996, it is one of the largest Buddha statues in the world and a major Buddhist pilgrimage site.",
+      "highlights": [
+        "88-meter tall bronze statue",
+        "Brahma Palace - a magnificent Buddhist temple complex",
+        "Nine Dragons Fountain - spectacular water and light show",
+        "Scenic views of Taihu Lake",
+        "Buddhist cultural experience"
+      ],
+      "best_time_to_visit": "Spring and Autumn",
+      "opening_hours": "7:30 AM - 5:30 PM",
+      "ticket_info": "Entrance fee includes access to all attractions within the area",
+      "duration": "2-3 hours",
+      "access": "Bus or taxi from Wuxi city center",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Lingshan%20Giant%20Buddha%20in%20Wuxi%2C%20China%2C%20large%20bronze%20Buddha%20statue%20on%20a%20hill%2C%20scenic%20view&image_size=landscape_16_9",
+      "url": "/attractions/lingshan-buddha.html"
+    },
+    {
+      "id": "yantouzhu",
+      "name": "Uantouzhu Scenic Area",
+      "category": "Natural",
+      "location": "Northern shore of Taihu Lake, Wuxi",
+      "description": "Uantouzhu, also known as Turtle Head Peninsula, is a scenic area located on the northern shore of Taihu Lake in Wuxi. It gets its name from its shape, which resembles a turtle's head extending into the lake. The area is famous for its beautiful cherry blossoms in spring.",
+      "highlights": [
+        "Spring cherry blossoms (late March to early April)",
+        "Magnificent views of Taihu Lake",
+        "Traditional Chinese pavilions and towers",
+        "Well-maintained gardens",
+        "Boating on the lake"
+      ],
+      "best_time_to_visit": "March-April (cherry blossom season)",
+      "opening_hours": "7:00 AM - 5:30 PM",
+      "ticket_info": "Entrance fee includes access to all attractions within the area",
+      "duration": "3-4 hours",
+      "access": "Bus or taxi from Wuxi city center",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=uantouzhu%20scenic%20area%20Wuxi%20spring%20cherry%20blossoms%20Taihu%20Lake%20traditional%20pavilions&image_size=landscape_16_9",
+      "url": "/attractions/yantouzhu.html"
+    },
+    {
+      "id": "nanchang-street",
+      "name": "Nanchang Street",
+      "category": "Cultural",
+      "location": "Center of Wuxi, along the Grand Canal",
+      "description": "Nanchang Street is a historic street located in the center of Wuxi, running along the banks of the Grand Canal. With a history dating back over 1,000 years, it is one of the best-preserved ancient streets in the city.",
+      "highlights": [
+        "Traditional Chinese architecture",
+        "Shops selling traditional crafts and souvenirs",
+        "Restaurants and teahouses serving local cuisine",
+        "Beautiful night views with lanterns",
+        "Grand Canal views and stone bridges"
+      ],
+      "best_time_to_visit": "Evening (for night views)",
+      "opening_hours": "24 hours (shops and restaurants typically 10:00 AM - 10:00 PM)",
+      "ticket_info": "No entrance fee",
+      "duration": "1-2 hours",
+      "access": "Walking distance from city center, bus or taxi",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Nanchang%20Street%20in%20Wuxi%2C%20traditional%20Chinese%20architecture%2C%20ancient%20water%20town%2C%20night%20view%20with%20lights&image_size=landscape_16_9",
+      "url": "/attractions/nanchang-street.html"
+    },
+    {
+      "id": "taihu",
+      "name": "Taihu Lake",
+      "category": "Natural",
+      "location": "Jiangsu and Zhejiang provinces, China",
+      "description": "Taihu Lake, also known as Lake Tai, is the third largest freshwater lake in China, located in the Yangtze River Delta. It covers an area of about 2,250 square kilometers and is shared by the provinces of Jiangsu and Zhejiang.",
+      "highlights": [
+        "Beautiful lake scenery",
+        "Numerous islands",
+        "Water activities (boat rides, fishing, swimming)",
+        "Scenic spots around the lake",
+        "Sunset views"
+      ],
+      "best_time_to_visit": "Spring and Autumn",
+      "opening_hours": "Open 24 hours",
+      "ticket_info": "Varies by specific scenic area",
+      "duration": "Half day to full day",
+      "access": "Bus or taxi to various entry points",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Taihu%20Lake%20in%20Wuxi%2C%20China%2C%20scenic%20lake%20view%2C%20blue%20water%2C%20surrounding%20mountains&image_size=landscape_16_9",
+      "url": "/attractions/taihu.html"
+    },
+    {
+      "id": "huishan",
+      "name": "Huishan Ancient Town",
+      "category": "Cultural",
+      "location": "Western part of Wuxi",
+      "description": "Huishan Ancient Town is a well-preserved ancient town located in the western part of Wuxi. With a history dating back over 3,000 years, it is one of the oldest towns in the region and a significant cultural heritage site.",
+      "highlights": [
+        "Huishan Temple - built during the Eastern Jin Dynasty",
+        "Jichang Garden - classical Chinese garden",
+        "Ancient streets with traditional architecture",
+        "Huishan clay figurines - traditional craft",
+        "Teahouses and local restaurants"
+      ],
+      "best_time_to_visit": "Spring and Autumn",
+      "opening_hours": "8:30 AM - 5:30 PM",
+      "ticket_info": "Entrance fee includes access to most attractions",
+      "duration": "2-3 hours",
+      "access": "Bus or taxi from Wuxi city center",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Huishan%20Ancient%20Town%20in%20Wuxi%2C%20traditional%20Chinese%20architecture%2C%20ancient%20streets%2C%20cultural%20heritage&image_size=landscape_16_9",
+      "url": "/attractions/huishan.html"
+    }
+  ]
+}

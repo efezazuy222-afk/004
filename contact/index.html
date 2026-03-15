@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Wuxi Lanqing Travel Agency</title>
+    <meta name="description" content="Contact Wuxi Lanqing Travel Agency for customized travel services, tour bookings, and more information about Wuxi tourism."/>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .contact-container {
+            display: flex;
+            gap: 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .contact-info {
+            flex: 1;
+        }
+        .contact-form {
+            flex: 1;
+            background-color: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark-gray);
+        }
+        .contact-info p {
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--dark-gray);
+            font-weight: 500;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid var(--medium-gray);
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .form-group textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+        .contact-details {
+            background-color: var(--light-gray);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+        .detail-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        .detail-icon {
+            width: 40px;
+            height: 40px;
+            background-color: var(--taihu-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            color: var(--white);
+            font-size: 1.2rem;
+        }
+        @media (max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="../index.html" class="logo">Wuxi Lanqing Travel Agency</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../attractions/index.html">Attractions</a></li>
+                <li><a href="../culture/index.html">Culture</a></li>
+                <li><a href="../travel-guide/index.html">Travel Guide</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>Get in Touch for Travel Assistance</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="section-title">
+            <h2>Get in Touch</h2>
+            <p>We're here to help with your travel plans</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h3>Contact Information</h3>
+                    <div class="detail-item">
+                        <div class="detail-icon">🏢</div>
+                        <div>
+                            <strong>Operated by:</strong><br>
+                            Lanqing International Travel Agency
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-icon">🌐</div>
+                        <div>
+                            <strong>Official Website:</strong><br>
+                            <a href="http://www.lanqingtrip.com" target="_blank">www.lanqingtrip.com</a>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-icon">📞</div>
+                        <div>
+                            <strong>Customer Service:</strong><br>
+                            180-1236-1217
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-icon">📧</div>
+                        <div>
+                            <strong>Email:</strong><br>
+                            932168783@qq.com
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-icon">📍</div>
+                        <div>
+                            <strong>Address:</strong><br>
+                            No. 17, Xiangjuyuan, Meicun Street, Xinwu District, Wuxi
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-details">
+                    <h3>Services We Offer</h3>
+                    <ul style="margin: 1rem 0; padding-left: 2rem;">
+                        <li>Custom travel itineraries</li>
+                        <li>Guided tours</li>
+                        <li>Accommodation booking</li>
+                        <li>Transportation arrangements</li>
+                        <li>Travel consultation and assistance</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Wuxi Travel Guide is operated by Lanqing International Travel Agency, dedicated to providing comprehensive travel services for visitors to Wuxi.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="../index.html">Home</a>
+                <a href="../attractions/index.html">Attractions</a>
+                <a href="../culture/index.html">Culture</a>
+                <a href="../travel-guide/index.html">Travel Guide</a>
+                <a href="index.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Information</h4>
+                <p>Customer Service: 180-1236-1217</p>
+                <p>Email: 932168783@qq.com</p>
+                <p>Website: <a href="http://www.lanqingtrip.com">www.lanqingtrip.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wuxi Travel Guide. All rights reserved. Operated by Lanqing International Travel Agency.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
